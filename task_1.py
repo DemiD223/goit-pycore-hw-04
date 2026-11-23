@@ -20,7 +20,7 @@ def total_salary(path):
         return 0, 0
 
     total = sum(salaries)
-    average = total // len(salaries)
+    average = total / len(salaries)
     return total, average
 
 
